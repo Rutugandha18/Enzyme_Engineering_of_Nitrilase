@@ -23,7 +23,7 @@ Uses the saved model as a surrogate fitness function inside an Ant Colony Optimi
 ```
 nitrilase-pH-optimizer/
 │
-├── ml_pipeline_with_model_saving.py   # Stage 1 — feature extraction, model training, saving
+├── ml_pipeline_with_model_saving.ipynb   # Stage 1 — feature extraction, model training, saving
 ├── aco_ga_optimizer.ipynb             # Stage 2 — ACO-GA mutation optimiser
 ├── README.md
 │
