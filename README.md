@@ -10,7 +10,7 @@ This project addresses a core challenge in industrial enzyme engineering: nitril
 
 The pipeline has two stages:
 
-**Stage 1 — ML pH Predictor** (`ml_pipeline_with_model_saving.py`)  
+**Stage 1 — ML pH Predictor** (`ml_pipeline_with_model_saving.ipynb`)  
 Trains regression models to predict pH optimum directly from protein sequence. Eight algorithms are benchmarked with Bootstrap augmentation to handle the small dataset size typical of curated enzyme databases. The best-performing model and its preprocessing artifacts (scaler, PCA, feature names) are saved to disk.
 
 **Stage 2 — ACO-GA Sequence Optimiser** (`aco_ga_optimizer.ipynb`)  
